@@ -2,6 +2,8 @@
 <p>Welcome to StoryBooks 1.0.0</p>
 <p>Post stories from the best and worst of your life and choose for them to be ready by the world or keep in private as your
     own secret diary book.</p>
+{{#if user}} {{else}}
 <a class="btn red darken-1" href="/auth/google">
-    <i class="fa fa-google left"> Login With Google</i>
+    <i class="fa fa-google left"> </i>Login With Google
 </a>
+{{/if}}
